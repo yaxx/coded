@@ -1,0 +1,45 @@
+.item{
+
+    border:1px solid lightgrey;
+    transition: box-shadow 1s ease-out;
+    margin:7px 0px;
+}
+.item:hover{
+
+    box-shadow:0px 0px 4px black;
+}
+.cart-item{
+    display: block;
+}
+#sales_product_name, #sales_product_price{
+    font-size:14px; 
+    text-transform:uppercase;
+}
+
+#sales_product_name, #sales_product_price p{
+    margin-bottom: 5px;
+}
+
+.sales_product_add_button{
+    margin-bottom: 20px;
+}
+
+#cart_item_number{
+    color:#fff; 
+    background-color:#5b9bd1;
+}
+
+#cart{
+    background-color: #f2f6f9; 
+    padding:10px; 
+    border:none; 
+    color:#5b9bd1; 
+    border-radius:5px!important;
+    transition: background-color 1s ease-out;
+}
+
+#cart:hover{
+    background-color:#cad3da;
+}
+
+

@@ -1,0 +1,118 @@
+html {
+    /* font-family: inherit !important; */
+    font-weight: bold;
+    line-height: 1.25 !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: black !important;
+}
+
+body {
+    /* margin: 0; */
+    font-family: "inter", sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.9;
+    color: #020308;
+    /* text-align: left; */
+    background-color: #fff;
+    /* width: auto; */
+
+
+    height: 100vh;
+}
+.login-content{
+  margin-left: 50px !important;
+}
+.pt-5 {
+    padding-top: 5rem !important;
+}
+.form-control {
+    width: 70% !important;
+
+}
+
+button.text-white {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.btn-custom {
+    padding: 10px;
+    border-radius: 0px;
+    /* color: #020308 !important; */
+    background-color: #188b43 !important;
+    border-color: #188b43 !important;
+    width: 70%;
+}
+
+.btn-white{
+    padding: 10px;
+    border-radius: 0px;
+    /* color: #020308 !important; */
+    /* background-color: white !important; */
+    /* border-color: #188b43 !important; */
+    width: 70%;
+}
+p {
+    color: #191b23aa !important;
+}
+.nav-brand {
+    padding: 15px !important;
+}
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.background-image {
+     position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Cover the entire height of the viewport */
+    object-fit: cover;
+}
+.overlay-image {
+   position: absolute;
+    top: 40px;
+    left: 35%;
+    width: calc((624 / 1000) * 100%);
+    height: calc((665 / 800) * 100%); 
+  
+    opacity: 1;
+}
+.logo{
+justify-content: center;
+padding-left: 30%;
+}
+@media (max-width: 767px) {
+  .overlay-image {
+      left: 0;
+      width: 100%;
+      height: auto; /* Adjust height as needed */
+      top: 10px; /* Adjust top positioning as needed */
+  }
+  .form-container {
+      padding: 20px; /* Adjust padding as needed */
+  }
+}
+
+/* Medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .overlay-image {
+      left: 20%;
+      width: calc((624 / 1000) * 80%);
+      height: auto; /* Adjust height as needed */
+      top: 20px; /* Adjust top positioning as needed */
+  }
+  .form-container {
+      padding: 30px; /* Adjust padding as needed */
+  }
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 1024px) {
+  /* No changes needed, keep the default styles */
+}
