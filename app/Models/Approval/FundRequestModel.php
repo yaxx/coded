@@ -16,7 +16,5 @@ class FundRequestModel extends Model
         'status',
         'description',
         'doc',
-       
-
     ];
 }

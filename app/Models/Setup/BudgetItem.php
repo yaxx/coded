@@ -11,7 +11,17 @@ class BudgetItem extends Model
     protected $table = 'budget_items';
     protected $primaryKey = 'budget_item_id';
 
-    protected $fillable = ['budget_item', 'budget_item_category_id', 'reference_no', 'budget_item_description', 'agency_id', 'service_id','created_by', 'uuid','enabled','deleted'];
+    protected $fillable = [
+        'budget_item', 
+        'budget_item_category_id', 
+        'reference_no', 
+        'budget_item_description', 
+        'agency_id', 
+        'service_id',
+        'created_by', 
+        'uuid',
+        'enabled',
+        'deleted'];
 
     ////////////////////// returns the budget cagetory /////////////////
     public function budget_category()
